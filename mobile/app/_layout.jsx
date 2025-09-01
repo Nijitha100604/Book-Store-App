@@ -7,12 +7,12 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <SafeScreen>
-      <Stack screenOptions={{ headerShown: false }}> 
-      <Stack.Screen name="index" />
-      <Stack.Screen name="(auth)" />
-      </Stack>
+        <Stack screenOptions={{ headerShown: false }}>
+          <Stack.Screen name="(tabs)" />
+          <Stack.Screen name="(auth)" />
+        </Stack>
       </SafeScreen>
-      <StatusBar style="dark"/>
+      <StatusBar style="dark" />
     </SafeAreaProvider>
   );
 }

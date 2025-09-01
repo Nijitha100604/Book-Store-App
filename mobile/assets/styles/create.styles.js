@@ -136,6 +136,11 @@ const styles = StyleSheet.create({
   buttonIcon: {
     marginRight: 8,
   },
+  image:{
+    width: "100%",
+    height: 200,
+    borderRadius: 8
+  }
 });
 
 export default styles;
